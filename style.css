@@ -1,0 +1,105 @@
+/* Reset dasar biar konsisten */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body utama */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #11100f, #740a0a);
+    color: #fdfdfd;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: hsl(357, 89%, 72%);
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* Sub judul */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #ec7f84;
+    border-left: 5px solid #ec5a66;
+    padding-left: 10px;
+}
+
+/* Paragraf */
+p {
+    margin-bottom: 15px;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 2px;
+    background: #c7d2fe;
+    margin: 25px 0;
+}
+
+/* List */
+ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ol li {
+    margin-bottom: 8px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #831e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Header tabel */
+th {
+    background: #ce353d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Isi tabel */
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Hover biar modern */
+tr:hover {
+    background: #f1f5f9;
+}
+
+/* Styling teks tambahan */
+b, strong {
+    color: #eb5050;
+}
+
+i, em {
+    color: #6b7280;
+}
+
+mark {
+    background: #fde68a;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+u {
+    text-decoration-color: #4f46e5;
+}
